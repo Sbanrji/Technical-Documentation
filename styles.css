@@ -1,0 +1,116 @@
+.main-section>header{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#navbar{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 150px;
+    height: 100%;
+    border-right: 2px solid grey; 
+    background-color: whitesmoke;
+    padding-left: 5px;
+    overflow-wrap: break-word;
+    padding-top: 5px;
+}
+#navbar ul{
+    list-style: none;
+    text-align: left;
+    padding-left: 2px;
+    padding-right: 5px;
+    
+}
+#navbar > ul >li{
+    margin-bottom: 10px;
+    border-bottom:1px solid black;
+    padding-bottom: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: rgb(63, 60, 60);
+}
+#navbar ul li a:hover{
+    border-left:2px solid black;
+    padding: 2px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: dodgerblue;
+}
+main{
+    position:absolute;
+    left:155px;
+    padding-left:10px;
+    margin-right: 5px;
+   
+}
+.main-section{
+   overflow:hidden;
+   padding-right: 10px;
+}
+#navbar header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(63,120,150);
+}
+@media only screen and (max-width:375px)
+{
+    #main-doc{
+        width:70%;
+        position: relative;
+        left:120px;
+        padding-left:1px;
+        font-size: 0.80rem;
+        margin-right: 10px;
+        
+    }
+    #navbar {
+        width:30%;
+        font-size: 0.75rem;
+    }
+    #navbar header{
+        font-size: 0.80rem;
+    }
+    .main-section>header{
+        font-size: 0.95rem;
+    }
+    #navbar ul li a:hover{
+        border-left:2px solid black;
+        padding: 2px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        color: dodgerblue;
+    }
+    
+}
+main h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+    margin-top: 2px;
+}
+.code{
+    background-color: beige;
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid;
+    margin:5px 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  #ref a:hover{
+    color: cadetblue;
+  }
+  #ref a:visited
+  {
+    color: rgb(50, 90, 207)
+  }
+  
