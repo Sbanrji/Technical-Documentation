@@ -51,7 +51,7 @@ main{
    padding-right: 10px;
 }
 #navbar header{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
     font-weight: bold;
     font-size: 1rem;
     color: rgb(63,120,150);
@@ -88,7 +88,7 @@ main{
 }
 main h1{
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
     font-weight: lighter;
     border-bottom: 2px solid;
     padding-bottom: 5px;
@@ -113,4 +113,3 @@ main h1{
   {
     color: rgb(50, 90, 207)
   }
-  
