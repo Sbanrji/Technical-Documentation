@@ -113,3 +113,9 @@ main h1{
   {
     color: rgb(50, 90, 207)
   }
+  .types > li{
+    margin-bottom: 10px;
+  }
+  .types > li:first-of-type{
+    margin-top: 5px;
+  }
