@@ -17,6 +17,7 @@
             <li><a href="#hello">Hello World!</a></li>
             <li><a href="#variables">Variables</a></li>
             <li><a href="#dec-variable">Declaring Variables</a></li>
+            <li><a href="#scope">Variable scope</a></li>
             <li><a href="#ref">Referrence</a></li>
         </ul>
     </nav>
@@ -76,7 +77,17 @@
         <section class="main-section" id="ref">
             <header>Referrence</header>
             <ul><li>All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a></li></ul>
+        </section><hr>
+        <section class="main-section" id="scope">
+            <header>Variable scope</header>
+            <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function. </p>
+            <p>JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement. </p>
+            <p class="code"><code>if (true) { var x = 5; } console.log(x); // 5</code></p>
+            <p>This behavior changes, when using the let declaration introduced in ECMAScript 2015. </p>
+            <p class="code"><code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is
+                not defined</code></p>
         </section>
+        
         <hr>
     </main>
 </body>
