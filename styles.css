@@ -1,3 +1,4 @@
+
 .main-section>header{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
@@ -101,11 +102,7 @@ main h1{
     border: 2px solid;
     margin:5px 0;
 }
-@media (prefers-reduced-motion: no-preference) {
-    * {
-      scroll-behavior: smooth;
-    }
-  }
+
   #ref a:hover{
     color: cadetblue;
   }
@@ -118,4 +115,9 @@ main h1{
   }
   .types > li:first-of-type{
     margin-top: 5px;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
   }
